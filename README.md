@@ -89,11 +89,11 @@ The download will start automatically after submitting the form.
 
 ## Project structure
 
-- `/pages`: Contains the Next.js pages.
+- `/app`: Contains the Next.js pages and API routes (App Router).
 
-- `index.js`: Home page with the download form.
+- `page.js`: Home page with the download form.
 
-- `api`: Folder containing the API to manage download requests.
+- `/api` : Folder containing the API (`route.js`) to manage download requests.
 
 - `/public` : Contains static files (images, styles, etc.).
 
